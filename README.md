@@ -37,11 +37,16 @@ Thanks to [Lost Pixel](https://www.lost-pixel.com/) for providing the visual tes
 4. Open `http://localhost:5173` in your browser.
 5. Click **Dev Login** on the login screen. No secret is required unless you set the optional `AUTH_SECRET` environment variable.
 
+
 ## Usage
 
 The application works out of the box without any API keys. Optional integrations
 such as Lost Pixel or image search are only enabled when the related environment
 variables are provided. Use **Dev Login** for quick access while developing.
+=======### Usage
+
+After starting the dev server with `pnpm dev` you can immediately try the builder by visiting `http://localhost:5173` and clicking **Dev Login**. No API keys or additional setup are needed.
+
 
 ## License
 
