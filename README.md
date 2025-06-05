@@ -37,6 +37,10 @@ Thanks to [Lost Pixel](https://www.lost-pixel.com/) for providing the visual tes
 4. Open `http://localhost:5173` in your browser.
 5. Click **Dev Login** on the login screen. No secret is required unless you set the optional `AUTH_SECRET` environment variable.
 
+### Usage
+
+After starting the dev server with `pnpm dev` you can immediately try the builder by visiting `http://localhost:5173` and clicking **Dev Login**. No API keys or additional setup are needed.
+
 ## License
 
 This project is released under the [AGPL-3.0](LICENSE) license.
