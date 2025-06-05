@@ -28,3 +28,15 @@
 <a href="https://www.lost-pixel.com/"><img src="https://user-images.githubusercontent.com/29632358/168112844-77e76a0d-b96f-4bc8-b753-cd39f4afd428.png" width="50" height="50" alt="Lost Pixel" /></a>
 
 Thanks to [Lost Pixel](https://www.lost-pixel.com/) for providing the visual testing platform that helps us review UI changes and catch visual regressions.
+
+## Running Locally
+
+1. Install [pnpm](https://pnpm.io/) and Node.js 20.
+2. Run `pnpm install` in the project root.
+3. Start the development server with `pnpm dev`.
+4. Open `http://localhost:5173` in your browser.
+5. Click **Dev Login** on the login screen. No secret is required unless you set the optional `AUTH_SECRET` environment variable.
+
+## License
+
+This project is released under the [AGPL-3.0](LICENSE) license.
