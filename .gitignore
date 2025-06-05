@@ -64,3 +64,7 @@ packages/prisma-client/src/__generated__
 
 .temp
 *.timestamp-*.mjs
+
+# ignore upstream archive
+webstudio-main.zip
+
